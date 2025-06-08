@@ -1,0 +1,11 @@
+{
+    "short_name": "ChatDemo by Lazlo Meli",
+    "name": "Stream Chat Demo App",
+    "description": "A real-time group chat application built with React and Stream Chat SDK.",
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#0a0a0a",
+    "background_color": "#ffffff",
+    "orientation": "portrait",
+    "lang": "en"
+}

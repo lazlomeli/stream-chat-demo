@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(34, 34, 34);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.chat-container {
+  height: 1100px;
+  padding: 10px
+}
+
+.str-chat__date-separator {
+  padding: 20px 0px 40px 0px !important;
+}
+
+.str-chat__date-separator-line {
+  background: #595e5b !important;
+}
+
+.str-chat__date-separator-date, .str-chat__message-simple-timestamp {
+  color: #646966 !important;
+}
+
+.str-chat__main-panel, .str-chat__main-panel-inner, .str-chat__list, .str-chat__ul, .str-chat__message-list-scroll, .str-chat__li, .str-chat__li--bottom, .str-chat__message-input {
+  background-color: #212422 !important;
+}
+
+.str-chat__main-panel-inner, .str-chat__message-list-main-panel {
+  min-height: 950px !important;
+}
+
+.str-chat__message-reaction-count {
+  color: #ecffff;
+}
+
+.str-chat__message {
+  gap: 1px;
+}
+
+.str-chat__message-text, .str-chat__quoted-message-bubble {
+  background: #164b37 !important;
+  color: #ecfff2;
+  border-radius: 10px 0px 0px 10px
+}
+
+.str-chat__message-replies-count-button, #delivered-icon {
+  color: #00ff9d !important;
+}
+
+.str-chat__quoted-message-bubble {
+  background: #123b2c !important;
+}
+
+.str-chat__quoted-message-bubble__text {
+  color: #ecffff;
+}
+
+.custom-header-container {
+  padding: 16px;
+  background: #282b29 !important;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px 20px 40px;
+}
+
+.custom-header-title-container {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  height: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.custom-header-title-container-title, .str-chat__thread-header-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color:#ecffff;
+}
+
+.custom-header-title-container-members {
+  font-size: 0.85rem;
+  font-weight: bold;
+  color:#adadad;
+}
+
+.custom-header-lastmessage, .str-chat__quoted-message-reply-to-message {
+  color:#595e5b;
+}
+
+.custom-header-lastmessage-container {
+  display: flex;  
+  font-size: 0.85rem;
+  color: #acacac;
+  background: #363a38;
+  margin-top: 4px;
+  width: 200px;
+  gap: 15px;
+  border: 1px solid #363a38;
+  border-radius: 20px;
+  padding: 10px;
+  width: 300px;
+}
+
+.str-chat__message-textarea-container {
+  background: #363a38 !important;
+  border: 1px solid #363a38;
+  border-radius: 20px;
+  color: #363a38 !important;
+}
+
+.str-chat__modal__inner, .str-chat__message-bubble, .str-chat__unread-messages-separator    {
+  background: #282b29 !important;
+  box-shadow: 20px #000000;
+}
+
+.str-chat__user-item--name, .str-chat__message-actions-list-item {
+  color: #acacac !important;
+}
+
+.str-chat__message-actions-list-item:hover {
+  background: #3b3f3c !important;
+  color: white
+}
+
+.str-chat__thread-container, .str-chat__thread, .str-chat__thread-header, .str-chat__message-actions-box, .str-chat__message--deleted-inner, .str-chat__message-reactions-list,.str-chat__message-reactions-options,.str-chat__message-reactions-list-item,.str-chat__message-reactions-option,
+.str-chat__message-reaction {
+  background: #282b29 !important;
+}
+
+.str-chat__message-reactions-option:hover {
+  background: #595e5b !important;
+}
+
+.str-chat__main-panel, .str-chat__ul, .str-chat__li:first-of-type {
+  padding: 0px;
+}
+
+.str-chat__close-thread-button > svg > path {
+ fill: #acacac !important;
+}
+
+.rta__textarea, .str-chat__quoted-message-text {
+  color: white !important;
+}
+
+.last-message-container { 
+  display: flex; 
+  align-items: center;
+  gap: 20px;
+}
+
+.last-message-text { 
+  margin-left: "8px";
+  color: #999;
+}
+
+.loading-indicator {
+  display: flex;
+  width: 100%;
+  min-height: 1000px;
+  justify-content: center;
+  align-items: center;
+}
+.group-image-container {
+  width: 60px;              
+  height: 60px;
+  border-radius: 50%;       
+  overflow: hidden;         
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.group-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background:#212422;
+}

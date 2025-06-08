@@ -3,6 +3,17 @@
 
 ---
 
+
+### Features:
+
+- Real-time messaging
+- Custom channel header
+- Typing indicators
+- Fake user simulation
+
+
+---
+
 <br />
 
 ### 1. Setup the project 

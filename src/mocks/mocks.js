@@ -5,7 +5,7 @@ const fakeUserMessage = "Hello Lazlo, good luck in the match!";
 const USERS_MOCK = {
   myUser: {
     id: "lazlo10",
-    name: "Opponent Bot",
+    name: "Lazlo Meli",
     image: "https://i.pravatar.cc/300?img=10",
   },
   fakeUser: {

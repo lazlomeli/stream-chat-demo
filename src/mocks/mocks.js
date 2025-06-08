@@ -31,10 +31,7 @@ const CHANNEL_MOCK = {
  * @returns {boolean}
  */
 const hasFakeUserMessage = async (channel) => {
-  // const messages = await channelState.messageSets[0].messages;
-  // return messages.some((msg) => msg.text === fakeUserMessage);
   const result = await channel.query({ messages: { limit: 50 } });
-
   return result.messages.some((msg) => msg.text === fakeUserMessage);
 };
 

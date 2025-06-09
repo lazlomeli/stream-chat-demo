@@ -49,6 +49,8 @@
 
 ### 4. Run the project
 
+- `npm i` on the project folder to install dependencies.
+
 - `cd` to project location
 
 - Run in the terminal:
